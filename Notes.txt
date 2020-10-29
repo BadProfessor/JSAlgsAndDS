@@ -1,0 +1,258 @@
+JS
+'use strict';
+
+NODE
+npm i
+npm run dev
+npm run build
+npm run start
+npm run debug
+
+MONGDODB
+mongod --version                // Version
+sudo apt install -y mongodb     // Install MongoDB
+sudo systemctl status mongodb   // Status
+sudo systemctl start mongodb    // Start
+sudo systemctl restart mongodb  // Restart
+sudo systemctl stop mongodb     // Stop
+sudo systemctl disable mongodb  // Disable automatic start
+sudo systemctl enable mongodb   // Enable automatic restart
+
+GIT
+git config --global user.name "user"                            //cli to associate a username with git
+git config --global user.email "email"                          //cli to associate a email with git
+git config --list                                               //check settings
+git init                                                        //initialize git
+git add -A                                                      //start adding
+git status                                                      //check the status
+git commit -m "Message"                                         //commit changes with a message
+git checkout -f                                                 //uncommit last changes
+ls -al ~/.ssh                                                   //check for any ssh keys
+ssh-keygen -t rsa                                               //generate rsa key pair - press three times enter
+cat ~/.ssh/id_rsa.pub                                           //press to check again the key
+git remote add origin git@github.com:BadProfessor/BlockFuzz.git //push the origin to GitHub
+git remote -v                                                   //list the origin
+git push -u origin master                                       //push to the master branch
+git checkout -b <branch name>                                   //create new branch
+git checkout <branch name>                                      //switch to a branch
+git merge   <branch name>                                       //merge the branches
+git branch -d <branch name>                                     //delete branch
+
+HEROKU
+heroku login                            //login to heroku
+heroku create                           //creates the application in heroku
+heroku keys:add                         //add the ssh keys to heroku
+git push heroku master                  //push the changes to heroku master branch
+heroku run rails db:migrate             //generate a table in heroku
+heroku rename <placeholder>             //rename your app
+https://blockfuzz.herokuapp.com/        //heroku app link
+https://git.heroku.com/blockfuzz.git    //heroku git link
+sudo snap install --classic heroku      //install heroku
+heroku run rails console                //run rails console in heroku
+
+PYTHON
+#Install Python VS extension
+#Install (copy/paste) the .venv environment
+#Install Folder
+#Install modules
+
+#modules
+pip install --upgrade pip
+pip install django
+pip install djangorestframework
+pip install django-filter
+pip install markdown
+pip install Pillow
+
+#formating
+pip install pylint
+pip install black
+
+#commands
+.venv\Scripts\activate          #activate the environment
+python manage.py migrate        #apply migrations
+python .\manage.py shell        #activate the shell
+python .\manage.py runserver    #run the server
+
+HTML Full Course - Build a Website Tutorial
+https://www.youtube.com/watch?v=pQN-pnXPaVg - Completed
+
+CSS Full Course - Includes Flexbox and CSS Grid Tutorials
+https://www.youtube.com/watch?v=ieTHC78giGQ - Completed
+
+CSS Flexbox Course
+https://www.youtube.com/watch?v=-Wlt8NRtOpo - Completed
+
+CSS Grid Course
+https://www.youtube.com/watch?v=t6CBKf8K_Ac - Completed
+
+Build a Tribute Page
+https://www.youtube.com/watch?v=qqrnzmqCGDw - Completed
+
+Learn JavaScript - Full Course for Beginners
+https://www.youtube.com/watch?v=PkZNo7MFNFg - Completed
+
+JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)
+https://www.youtube.com/watch?v=nZ1DMMsyVyI - Completed
+
+Learn Regular Expressions (Regex) - Crash Course for Beginners
+https://www.youtube.com/watch?v=ZfQFUJhPqMM - Completed
+
+Debugging JavaScript - Are you doing it wrong?
+https://www.youtube.com/watch?v=ABlaMXkUwzY - Completed
+
+Debugging Node.js with Paul Irish
+https://www.youtube.com/watch?v=F1VZj-zqnG4 - Completed
+
+JavaScript and the HTML DOM - Tutorial Playlist
+https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO - Completed
+
+Data Structures and Algorithms in JavaScript - Full Course for Beginners
+https://www.youtube.com/watch?v=t2CEgPsws3U - Completed
+
+Intro to Object Oriented Programming - Crash Course
+https://www.youtube.com/watch?v=SiBw7os-_zI - Completed
+
+JavaScript Classes Tutorial
+https://www.youtube.com/watch?v=2ZphE5HcQPQ - Completed
+
+Functional Programming in ES6 with Nathan and Geoff
+https://www.youtube.com/watch?v=5iDwYK2frNQ - Completed
+
+INTERVIEW
+
+Categories:
+Algorithms
+Data structures
+Build a game (5 days)
+Take Home assignment
+System Design
+Architecture design
+Coding
+Whiteboard
+
+=========
+
+Leetcode
+Coderpad
+Bug fixes
+Internet fundamentals
+Code pairing
+book Cracking the Coding Interview!!!
+Exploratory testing
+
+Questions:
+Encoded string (a~z), find encode method
+
+Design a subway
+
+Print elements from a 2D array in spiral form
+
+Tic-Tac-Toe
+===========
+Implement a durable and persistent database with special commands
+
+T9 Problem
+
+DB design of Twitter app. Feed implementation.
+
+Connect 4 game
+
+Async/Await
+
+Component rendering
+
+fetching data
+
+Simple string problem
+
+Recursive function
+
+Find the second largest number in a sorted array
+
+Reverse string
+
+Design an elevator system in any Language
+
+Design Zendesk (system design)
+
+=====================================
+
+General OSI Model, TCP/IP, DNS, DHCP
+
+CLI search on JSON data
+
+Write a simple cipher that will take a string and replace each letter in the range a-z with the corresponding character 13 steps along the alphabet.
+
+Architecture of a real time analytics sort of system
+
+Mini testing framework in Ruby
+
+SQL views
+
+SQL Tables
+
+SQL index
+
+SQL joins
+
+HashMap
+
+HashSet
+
+Hash tables
+
+Find intersection of two arrays
+
+Design and code for an application cache
+
+Design a bike rent service
+
+Design an event driven system
+
+High scalability systems with Node.js
+
+Describe a software project that you architected and walk me through it so I understand it from a high level.
+
+How does attribute precedence work in Chef?
+
+search and replace words in a sentence
+
+What is the difference between process and thread?
+
+What is the difference between container and VM?
+
+Explain event bubbling.
+
+Write a method that returns 0 on 1, 1 on 0.
+
+What do I use for debugging my ruby?
+
+What are page objects
+
+Do I store my scripts in Git on my local machine
+
+If I am using Rubymine to create and run my automated suite on ubuntu, why do I need a separate selenium webdriver smoke test framework on my local machine
+
+Test tools that you are using
+
+how to turn a phrase like "zendesk" into "z.e.n.d.e.s.k" using JS
+
+Build a custom app using a third party API to leverage specific situations and circumstances that are listed as requirements and integrate it into zendesk.
+
+Build a carousel of photos
+
+Find the second largest number in a sorted array.
+
+Implement a redis server (Googling is allowed, time limit is 2 hours)
+
+Write a string compression method and use TDD    
+
+Code some quick system monitors using the language of your choice
+
+===============================================
+1. Next week virtual briefing on next steps
+
+2. You will be given an online coding assessment to complete
+
+3. If you pass this - you will have two final virtual interviews - coding & a management interview
