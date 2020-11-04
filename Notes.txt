@@ -60,19 +60,5 @@ Multiple pointers
 Sliding Window
 Divide and Conquer
 Dynamic Programming
-Greedy Algorithms
+Greedy Algorithmsn
 Backtracking
-
-Frequency counter pattern
-This pattern uses objects or sets to collect values/frequencies of values
-
-This can often avoid the need for nested loops or O(N^2) operations with arrays / strings.
-
-Multiple pointers pattern
-Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition.
-
-Very efficient for solving problems with minimal space complexity as well.
-
-
-Anagrams challenge
-Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
