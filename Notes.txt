@@ -53,12 +53,3 @@ Explore Concrete Examples
 Break It Down
 Solve/Simplify
 Look Back and Refactor
-
-Problem solving patterns:
-Frequency counter
-Multiple pointers
-Sliding Window
-Divide and Conquer
-Dynamic Programming
-Greedy Algorithmsn
-Backtracking
